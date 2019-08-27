@@ -20,7 +20,7 @@ BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}
 
 BuildRequires:    glib2-devel,libevent-devel,openssl-devel,pcre-devel
 BuildRequires:    cmake,gmime-devel,file-devel,libunwind-devel
-BuildRequires:    ragel < 7.0
+BuildRequires:    ragel
 BuildRequires:    perl-Digest-MD5
 BuildRequires:    sqlite-devel
 BuildRequires:    systemd
